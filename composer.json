@@ -1,5 +1,5 @@
 {
-    "name": "beastbytes/country-data-php",
+    "name": "beastbytes/country-data",
     "type": "library",
     "description": "Interface for retrieving country data",
     "keywords": [
