@@ -1,0 +1,38 @@
+{
+    "name": "beastbytes/country-data-php",
+    "type": "library",
+    "description": "Interface for retrieving country data",
+    "keywords": [
+        "country",
+        "country data",
+        "address format",
+        "flag",
+        "idc",
+        "international dialing code",
+        "name format",
+        "timezone",
+        "tld",
+        "top level domain"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "Chris Yates",
+        "email": "chris.l.yates@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "consolidation/robo": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BeastBytes\\Country\\": "src"
+        }
+    },
+    "scripts": {
+        "robo": "robo"
+    }
+}
