@@ -49,7 +49,7 @@ interface CountryDataInterface
     /**
      * @return string ISO 3116 numeric code for the country
      */
-    public function getNumericCode(string $country): string;
+    public function getNumeric(string $country): string;
     /**
      * @return string Top level domain for the country
      */
